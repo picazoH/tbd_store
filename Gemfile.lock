@@ -116,6 +116,13 @@ GIT
       i18n (~> 0.5)
 
 PATH
+  remote: ../spree_sermepa
+  specs:
+    spree_sermepa (1.2.3)
+      active_merchant_sermepa (>= 0.1.1)
+      spree_core (~> 1.2.0)
+
+PATH
   remote: spree_tbd_customization
   specs:
     spree_tbd_customization (1.2.3.beta)
@@ -137,6 +144,8 @@ GEM
       rack-cache (~> 1.2)
       rack-test (~> 0.6.1)
       sprockets (~> 2.2.1)
+    active_merchant_sermepa (0.1.1)
+      activemerchant (>= 1.9.4)
     active_utils (1.0.5)
       activesupport (>= 2.3.11)
       i18n
@@ -305,6 +314,7 @@ DEPENDENCIES
   spree_paypal_express!
   spree_related_products!
   spree_reviews!
+  spree_sermepa!
   spree_social_products!
   spree_static_content!
   spree_tbd_customization!

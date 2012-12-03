@@ -67,11 +67,11 @@ gem 'spree_paypal_express', :git => 'git://github.com/spree/spree_paypal_express
 
 
 
-### CUSTOME EXTENSIONS ###
+### CUSTOM EXTENSIONS ###
 
 #2beDigital Customization “integrated” extension
 gem 'spree_tbd_customization', :path => 'spree_tbd_customization'
 
 # picazoH / spree_sermepa
 #gem 'spree_sermepa', :git => 'git://github.com/picazoH/spree_sermepa.git', :branch => 'master'
-#gem 'spree_sermepa', :path => '../spree_sermepa'
+gem 'spree_sermepa', :path => '../spree_sermepa'
