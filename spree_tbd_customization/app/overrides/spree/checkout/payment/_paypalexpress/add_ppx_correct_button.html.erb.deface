@@ -1,0 +1,9 @@
+<!--
+  replace_contents 'a#ppx'
+  original '0fdc6d48016969b743d9e552b9b1dc328adc2738'
+-->
+<% if I18n.locale.to_s.include? "es" %>
+    <img src="https://www.paypal.com/es_ES/i/btn/btn_xpressCheckout.gif" alt="paypal_payment image" />
+<% else %>
+    <img src="https://www.paypal.com/en_US/i/btn/btn_xpressCheckout.gif"  alt="<%= t(:paypal_payment) %>" />
+<% end %>
