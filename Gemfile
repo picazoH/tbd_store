@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.9'
+gem 'rails', '3.2.11'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -51,7 +51,7 @@ gem 'spree_static_content', :git => 'git://github.com/spree/spree_static_content
 gem 'spree_volume_pricing', :git => 'git://github.com/scudco/spree_volume_pricing.git', :branch => 'update-for-spree-1.2'
 
 #Reviews Straightforward review/rating facility , 1.2 master
-gem 'spree_reviews', :git => 'git://github.com/spree/spree_reviews.git', :branch => 'master'
+gem 'spree_reviews', :git => 'git://github.com/spree/spree_reviews.git', :branch => '1-2-stable'
 
 #Related Products This extension provides a generic way for you to define different types of relationships
 #between your products, by defining a RelationType for each type of relationship you'd like to maintain.
@@ -59,7 +59,7 @@ gem 'spree_reviews', :git => 'git://github.com/spree/spree_reviews.git', :branch
 gem 'spree_related_products', :git => 'git://github.com/spree/spree_related_products.git', :branch => '1-2-stable'
 
 #SpreeSocialProducts ,1.2 master
-gem 'spree_social_products', :git => 'git://github.com/spree/spree_social_products.git', :branch => 'master'
+gem 'spree_social_products', :git => 'git://github.com/spree/spree_social_products.git', :branch => '1-2-stable'
 
 #gem "spree_gateway"
 gem 'spree_paypal_express', :git => 'git://github.com/spree/spree_paypal_express.git', :branch => '1-2-stable'
