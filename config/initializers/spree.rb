@@ -12,14 +12,14 @@ Spree.config do |config|
   #Check AppConfiguration inside models spree in spree_core
   #admin_interface_logo, default_meta_description, default_meta_keywords, default_seo_title, logo, orders_per_page,site_name,site_url
   config.site_name = 'tienda 2beDigital demo'
-  config.default_locale = 'es'
-  config.allow_locale_switching = true
-  config.default_country_id = 188
+  #config.default_country_id = 188
   config.admin_interface_logo = 'admin/bg/spree_50.png'
   config.logo = '2bD-logo.png'
   config.allow_ssl_in_production = false
   #SpreeSocialProducts config.facebook_app_id = 'YOUR_FACEBOOK_APP_ID'
   config.show_zero_stock_products = true #http://guides.spreecommerce.com/inventory.html
+  #config.address_requires_state = false
 end
 
 Spree.user_class = "Spree::User"
+Rails.application.config.i18n.default_locale = :es
