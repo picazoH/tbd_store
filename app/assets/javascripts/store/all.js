@@ -13,4 +13,3 @@
 //= require_tree .
 //= require jquery.rating
 //= require store/spree_social_products
-

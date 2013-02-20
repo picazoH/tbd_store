@@ -72,8 +72,6 @@ gem 'spree_contact_us', :git => 'git://github.com/picazoH/spree_contact_us.git',
 ### FANCY THEME ###
 #gem 'spree_fancy', :git => 'git://github.com/spree/spree_fancy.git', :branch => 'master'
 
-gem 'spree_flat_in_range', :path => '../spree_flat_in_range'
-
 ### CUSTOM EXTENSIONS ###
 
 #2beDigital Customization “integrated” extension

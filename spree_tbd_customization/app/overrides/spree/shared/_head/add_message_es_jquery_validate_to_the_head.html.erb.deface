@@ -1,0 +1,9 @@
+
+<!--
+    insert_after 'code:contains("javascript_include_tag")'
+    original '93e28f5e86e8dd93941c61f65603b28aeb9ae5e4'
+-->
+<% if I18n.locale.to_s.include? "es" %>
+    <%=javascript_include_tag "messages_es" %>
+<% end %>
+
