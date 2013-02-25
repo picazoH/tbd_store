@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.12'
 
 # Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
+# gem 'rails', :git => 'https://github.com/rails/rails.git'
 
 gem 'mysql2'
 
@@ -20,7 +20,11 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails' #, '~> 2.1.4'
+group :development do
+  gem 'graffity'
+end
+
+gem 'jquery-rails', '~> 2.2.0'#'~> 2.1.4'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -37,40 +41,40 @@ gem 'jquery-rails' #, '~> 2.1.4'
 # To use debugger
 # gem 'debugger'
 
-gem 'spree',  :git => 'git://github.com/spree/spree.git', :branch => '1-3-stable'
-gem 'spree_auth_devise', :git => 'git://github.com/spree/spree_auth_devise', :branch => '1-3-stable'
+gem 'spree',  :git => 'https://github.com/spree/spree.git', :branch => '1-3-stable'
+gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise', :branch => '1-3-stable'
 
 #i18n
-gem 'rails-i18n', :git => 'git://github.com/svenfuchs/rails-i18n.git'
-gem 'spree_i18n', :git => 'git://github.com/spree/spree_i18n.git', :branch => '1-3-stable'
+gem 'rails-i18n', :git => 'https://github.com/svenfuchs/rails-i18n.git'
+gem 'spree_i18n', :git => 'https://github.com/spree/spree_i18n.git', :branch => '1-3-stable'
 
 ##Spree Static Content
-gem 'spree_static_content', :git => 'git://github.com/spree/spree_static_content.git', :branch => '1-3-stable'
+gem 'spree_static_content', :git => 'https://github.com/spree/spree_static_content.git', :branch => '1-3-stable'
 
 #Related Products This extension provides a generic way for you to define different types of relationships
 #between your products, by defining a RelationType for each type of relationship you'd like to maintain.
 #Se define desde la administración backoffice, Spree::RelationType.create(:name => "Productos Compatibles", :applies_to => "Spree::Product")
-gem 'spree_related_products', :git => 'git://github.com/spree/spree_related_products.git', :branch => '1-3-stable'
+gem 'spree_related_products', :git => 'https://github.com/spree/spree_related_products.git', :branch => '1-3-stable'
 
 #SpreeSocialProducts
-gem 'spree_social_products', :git => 'git://github.com/spree/spree_social_products.git', :branch => 'master'
+gem 'spree_social_products', :git => 'https://github.com/spree/spree_social_products.git', :branch => 'master'
 
 #gem "spree_gateway"
-gem 'spree_paypal_express', :git => 'git://github.com/spree/spree_paypal_express.git', :branch => '1-3-stable'
+gem 'spree_paypal_express', :git => 'https://github.com/spree/spree_paypal_express.git', :branch => '1-3-stable'
 
 #Spree Volume pricing , you have to change then name of the table manually
-gem 'spree_volume_pricing', :git => 'git://github.com/spree/spree_volume_pricing', :branch => '1-3-stable'
+gem 'spree_volume_pricing', :git => 'https://github.com/spree/spree_volume_pricing', :branch => '1-3-stable'
 
 #Reviews Straightforward review/rating facility
-gem 'spree_reviews', :git => 'git://github.com/spree/spree_reviews.git', :branch => '1-3-stable'
+gem 'spree_reviews', :git => 'https://github.com/spree/spree_reviews.git', :branch => '1-3-stable'
 
 ### 1.3 not compatible or not working properly###
 
-gem 'spree_contact_us', :git => 'git://github.com/picazoH/spree_contact_us.git', :branch => 'master'
+gem 'spree_contact_us', :git => 'https://github.com/picazoH/spree_contact_us.git', :branch => 'master'
 
 
 ### FANCY THEME ###
-#gem 'spree_fancy', :git => 'git://github.com/spree/spree_fancy.git', :branch => 'master'
+#gem 'spree_fancy', :git => 'https://github.com/spree/spree_fancy.git', :branch => 'master'
 
 gem 'spree_flat_in_range', :path => '../spree_flat_in_range'
 
@@ -79,8 +83,8 @@ gem 'spree_flat_in_range', :path => '../spree_flat_in_range'
 #2beDigital Customization “integrated” extension
 gem 'spree_tbd_customization', :path => 'spree_tbd_customization'
 
-# picazoH / spree_sermepa
-#gem 'spree_sermepa', :git => 'git://github.com/picazoH/spree_sermepa.git', :branch => 'master'
+#gem 'spree_sermepa', :git => 'https://github.com/picazoH/spree_sermepa.git', :branch => 'master'
 gem 'spree_sermepa', :path => '../spree_sermepa'
 
+gem 'spree_kiala', :path => '../spree_kiala'
 
