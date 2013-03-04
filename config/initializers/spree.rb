@@ -5,6 +5,8 @@
 #
 # In order to initialize a setting do: 
 # config.setting_name = 'new value'
+# config/initializers/spree.rb
+require 'spree/product_filters' #spree / core / lib / spree / product_filters.rb
 Spree.config do |config|
   # Example:
   # Uncomment to override the default site name.

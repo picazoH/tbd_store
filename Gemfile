@@ -21,7 +21,7 @@ group :assets do
 end
 
 group :development do
-  gem 'graffity'
+  # gem 'graffity'
 end
 
 gem 'jquery-rails', '~> 2.2.0'#'~> 2.1.4'
