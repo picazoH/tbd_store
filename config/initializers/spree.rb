@@ -21,6 +21,7 @@ Spree.config do |config|
   #SpreeSocialProducts config.facebook_app_id = 'YOUR_FACEBOOK_APP_ID'
   config.show_zero_stock_products = true #http://guides.spreecommerce.com/inventory.html
   #config.address_requires_state = false
+  config.shipping_instructions = true
 end
 
 Spree.user_class = "Spree::User"
