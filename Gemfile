@@ -22,6 +22,9 @@ end
 
 group :development do
   # gem 'graffity'
+  gem 'datashift'
+  gem 'datashift_spree'
+  gem 'spree_clean', :git => "git://github.com/spree/spree_clean.git", :branch => 'master'
 end
 
 gem 'jquery-rails', '~> 2.2.0'#'~> 2.1.4'
@@ -77,10 +80,12 @@ gem 'globalize3', :git => 'https://github.com/svenfuchs/globalize3.git', :tag =>
 gem 'spree_product_zoom', :git => 'https://github.com/spree/spree_product_zoom.git', :branch => '1-3-stable'
 
 
-### 1.3 not compatible or not working properly###
+### no 1.3 branch ###
 gem 'spree_contact_us', :git => 'https://github.com/picazoH/spree_contact_us.git', :branch => 'master'
 
 gem 'spree_showcase', :git => 'https://github.com/daemonsy/spree_showcase.git', :branch => 'master'
+
+gem 'spree_last_address', :git => 'https://github.com/TylerRick/spree_last_address.git', :branch => 'master'
 
 
 ### FANCY THEME ###
