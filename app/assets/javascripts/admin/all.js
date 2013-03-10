@@ -12,4 +12,6 @@
 
 //= require_tree .
 //= require admin/spree_social_products
+//= require admin/spree_multi_lingual
+//= require admin/spree_multi_lingual_class
 

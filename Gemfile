@@ -68,6 +68,14 @@ gem 'spree_volume_pricing', :git => 'https://github.com/spree/spree_volume_prici
 #Reviews Straightforward review/rating facility
 gem 'spree_reviews', :git => 'https://github.com/spree/spree_reviews.git', :branch => '1-3-stable'
 
+#SpreeMultiLingual
+gem 'spree_multi_lingual', :git => 'https://github.com/picazoH/spree_multi_lingual.git', :branch => '1-3-stable'
+
+gem 'globalize3', :git => 'https://github.com/svenfuchs/globalize3.git', :tag => 'v0.2.0'
+#gem 'globalize3', :git => 'https://github.com/svenfuchs/globalize3.git'
+#gem 'globalize3', :git => 'https://github.com/svenfuchs/globalize3.git', :tag => 'v0.3.0'
+
+
 ### 1.3 not compatible or not working properly###
 
 gem 'spree_contact_us', :git => 'https://github.com/picazoH/spree_contact_us.git', :branch => 'master'
