@@ -15,4 +15,4 @@
 //= require admin/spree_multi_lingual
 //= require admin/spree_multi_lingual_class
 
-//= require admin/spree_clean
+//require admin/spree_clean

@@ -15,16 +15,19 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platforms => :ruby
+  gem 'therubyracer', :platforms => :ruby
+  gem "less-rails"  #Sprockets
 
   gem 'uglifier', '>= 1.0.3'
 end
 
 group :development do
   # gem 'graffity'
-  gem 'datashift'
-  gem 'datashift_spree'
-  gem 'spree_clean', :git => "git://github.com/spree/spree_clean.git", :branch => 'master'
+  #gem 'datashift'
+  #gem 'datashift_spree'
+
+  #Enable admin store://require admin/spree_clean
+  #gem 'spree_clean', :git => "git://github.com/spree/spree_clean.git", :branch => 'master'
 end
 
 gem 'jquery-rails', '~> 2.2.0'#'~> 2.1.4'
@@ -86,6 +89,8 @@ gem 'spree_contact_us', :git => 'https://github.com/picazoH/spree_contact_us.git
 gem 'spree_showcase', :git => 'https://github.com/daemonsy/spree_showcase.git', :branch => 'master'
 
 gem 'spree_last_address', :git => 'https://github.com/TylerRick/spree_last_address.git', :branch => 'master'
+
+gem 'twitter-bootstrap-rails', :git => 'https://github.com/seyhunak/twitter-bootstrap-rails.git', :branch => 'master'
 
 
 ### FANCY THEME ###

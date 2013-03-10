@@ -10,9 +10,11 @@
 //= require store/spree_core
 //= require store/spree_promo
 
-//= require_tree .
+
 //= require jquery-migrate-1.1.1.min
 //= require jquery.rating
 //= require store/spree_social_products
 //= require store/spree_product_zoom
 //= require jquery.flexslider
+//= require twitter/bootstrap
+//= require_tree .
