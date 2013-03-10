@@ -80,6 +80,8 @@ gem 'spree_product_zoom', :git => 'https://github.com/spree/spree_product_zoom.g
 ### 1.3 not compatible or not working properly###
 gem 'spree_contact_us', :git => 'https://github.com/picazoH/spree_contact_us.git', :branch => 'master'
 
+gem 'spree_showcase', :git => 'https://github.com/daemonsy/spree_showcase.git', :branch => 'master'
+
 
 ### FANCY THEME ###
 #gem 'spree_fancy', :git => 'https://github.com/spree/spree_fancy.git', :branch => 'master'
