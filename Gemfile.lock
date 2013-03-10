@@ -96,6 +96,14 @@ GIT
       spree_core (~> 1.3.0)
 
 GIT
+  remote: https://github.com/spree/spree_product_zoom.git
+  revision: be2d9aa8cffe05775f08961607842ddb3407e9d6
+  branch: 1-3-stable
+  specs:
+    spree_product_zoom (1.3)
+      spree_core (~> 1.2)
+
+GIT
   remote: https://github.com/spree/spree_related_products.git
   revision: 5def88e237577d452fac3d763af7a415e34b3d0c
   branch: 1-3-stable
@@ -386,6 +394,7 @@ DEPENDENCIES
   spree_kiala!
   spree_multi_lingual!
   spree_paypal_express!
+  spree_product_zoom!
   spree_related_products!
   spree_reviews!
   spree_sermepa!
