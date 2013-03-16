@@ -18,3 +18,4 @@
 //= require jquery.flexslider
 //= require twitter/bootstrap
 //= require_tree .
+//= require store/spree_social

@@ -48,11 +48,13 @@ gem 'jquery-rails', '~> 2.2.0'#'~> 2.1.4'
 # gem 'debugger'
 
 gem 'spree',  :git => 'https://github.com/spree/spree.git', :branch => '1-3-stable'
-gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise', :branch => '1-3-stable'
+#gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise', :branch => '1-3-stable'
+gem 'spree_auth_devise', :git => 'https://github.com/picazoH/spree_auth_devise.git', :branch => '1-3-stable'
 
 #i18n
 gem 'rails-i18n', :git => 'https://github.com/svenfuchs/rails-i18n.git'
-gem 'spree_i18n', :git => 'https://github.com/spree/spree_i18n.git', :branch => '1-3-stable'
+#gem 'spree_i18n', :git => 'https://github.com/spree/spree_i18n.git', :branch => '1-3-stable'
+gem 'spree_i18n', :path => '../spree/spree_i18n', :branch => '1-3-stable'
 
 ##Spree Static Content
 gem 'spree_static_content', :git => 'https://github.com/spree/spree_static_content.git', :branch => '1-3-stable'
@@ -82,6 +84,9 @@ gem 'globalize3', :git => 'https://github.com/svenfuchs/globalize3.git', :tag =>
 #spree_product_zoom
 gem 'spree_product_zoom', :git => 'https://github.com/spree/spree_product_zoom.git', :branch => '1-3-stable'
 
+#spree_social
+gem "spree_social", :git => 'https://github.com/spree/spree_social.git', :branch => '1-3-stable'
+
 
 ### no 1.3 branch ###
 gem 'spree_contact_us', :git => 'https://github.com/picazoH/spree_contact_us.git', :branch => 'master'
@@ -95,8 +100,7 @@ gem 'twitter-bootstrap-rails', :git => 'https://github.com/seyhunak/twitter-boot
 
 ### FANCY THEME ###
 #gem 'spree_fancy', :git => 'https://github.com/spree/spree_fancy.git', :branch => 'master'
-
-gem 'spree_flat_in_range', :path => '../spree_flat_in_range'
+#gem 'spree_flat_in_range', :path => '../spree_flat_in_range'
 
 ### CUSTOM EXTENSIONS ###
 
