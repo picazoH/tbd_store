@@ -27,7 +27,7 @@ group :development do
   #gem 'datashift_spree'
 
   #Enable admin store://require admin/spree_clean
-  #gem 'spree_clean', :git => "git://github.com/spree/spree_clean.git", :branch => 'master'
+  #gem 'spree_clean', :git => "https://github.com/spree/spree_clean.git", :branch => 'master'
 end
 
 gem 'jquery-rails', '~> 2.2.0'#'~> 2.1.4'
@@ -107,8 +107,9 @@ gem 'twitter-bootstrap-rails', :git => 'https://github.com/seyhunak/twitter-boot
 #2beDigital Customization “integrated” extension
 gem 'spree_tbd_customization', :path => 'spree_tbd_customization'
 
-#gem 'spree_sermepa', :git => 'https://github.com/picazoH/spree_sermepa.git', :branch => 'master'
-gem 'spree_sermepa', :path => '../spree_sermepa'
+gem 'spree_sermepa', :git => 'https://github.com/picazoH/spree_sermepa.git', :branch => 'master'
+#gem 'spree_sermepa', :path => '../spree_sermepa'
 
-gem 'spree_kiala', :path => '../spree_kiala'
+gem 'spree_kiala', :git => 'https://github.com/picazoH/spree_kiala.git', :branch => 'master'
+#gem 'spree_kiala', :path => '../spree_kiala'
 
