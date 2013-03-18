@@ -2,9 +2,6 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.12'
 
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'https://github.com/rails/rails.git'
-
 gem 'mysql2'
 
 
@@ -28,6 +25,13 @@ group :development do
 
   #Enable admin store://require admin/spree_clean
   #gem 'spree_clean', :git => "https://github.com/spree/spree_clean.git", :branch => 'master'
+  gem 'capistrano'
+end
+
+group :production do
+  gem 'unicorn'
+  gem 'foreman'
+  gem 'therubyracer' #only required for 0.70.x or later
 end
 
 gem 'jquery-rails', '~> 2.2.0'#'~> 2.1.4'
@@ -38,14 +42,6 @@ gem 'jquery-rails', '~> 2.2.0'#'~> 2.1.4'
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
 
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Deploy with Capistrano
-# gem 'capistrano'
-
-# To use debugger
-# gem 'debugger'
 
 gem 'spree',  :git => 'https://github.com/spree/spree.git', :branch => '1-3-stable'
 #gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise', :branch => '1-3-stable'
