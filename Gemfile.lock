@@ -121,6 +121,16 @@ GIT
       spree_core (= 1.3.3.beta)
 
 GIT
+  remote: https://github.com/spree/spree_i18n.git
+  revision: f2a6d8def278f25a8e5cd747700295b4daf95f31
+  branch: 1-3-stable
+  specs:
+    spree_i18n (1.0.0)
+      i18n (~> 0.5)
+      rails-i18n
+      spree_core (>= 1.1)
+
+GIT
   remote: https://github.com/spree/spree_paypal_express.git
   revision: b96c501bc4d6a675b1c0c8e8e49b6a64cd0b622c
   branch: 1-3-stable
@@ -203,18 +213,10 @@ GIT
 
 GIT
   remote: https://github.com/svenfuchs/rails-i18n.git
-  revision: 99c3f46d9c454e14c6a30d6a56f9e59c667e111a
+  revision: 9f29bd8840894230bf63af8e6a2d6356edc31400
   specs:
     rails-i18n (0.7.2)
       i18n (~> 0.5)
-
-PATH
-  remote: ../spree/spree_i18n
-  specs:
-    spree_i18n (1.0.0)
-      i18n (~> 0.5)
-      rails-i18n
-      spree_core (>= 1.1)
 
 PATH
   remote: spree_tbd_customization
@@ -348,7 +350,7 @@ GEM
     money (5.0.0)
       i18n (~> 0.4)
       json
-    multi_json (1.6.1)
+    multi_json (1.7.1)
     multi_xml (0.5.3)
     multipart-post (1.2.0)
     mysql2 (0.3.11)
@@ -359,7 +361,7 @@ GEM
     net-ssh (2.6.6)
     net-ssh-gateway (1.2.0)
       net-ssh (>= 2.6.5)
-    nokogiri (1.5.6)
+    nokogiri (1.5.7)
     oa-core (0.3.2)
     oauth (0.4.7)
     oauth2 (0.8.1)
@@ -457,12 +459,12 @@ GEM
       libv8 (~> 3.11.8.12)
       ref
     thor (0.17.0)
-    tilt (1.3.5)
+    tilt (1.3.6)
     treetop (1.4.12)
       polyglot
       polyglot (>= 0.3.1)
     truncate_html (0.5.5)
-    tzinfo (0.3.36)
+    tzinfo (0.3.37)
     uglifier (1.3.0)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)

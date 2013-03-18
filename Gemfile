@@ -49,8 +49,7 @@ gem 'spree_auth_devise', :git => 'https://github.com/picazoH/spree_auth_devise.g
 
 #i18n
 gem 'rails-i18n', :git => 'https://github.com/svenfuchs/rails-i18n.git'
-#gem 'spree_i18n', :git => 'https://github.com/spree/spree_i18n.git', :branch => '1-3-stable'
-gem 'spree_i18n', :path => '../spree/spree_i18n', :branch => '1-3-stable'
+gem 'spree_i18n', :git => 'https://github.com/spree/spree_i18n.git', :branch => '1-3-stable'
 
 ##Spree Static Content
 gem 'spree_static_content', :git => 'https://github.com/spree/spree_static_content.git', :branch => '1-3-stable'
