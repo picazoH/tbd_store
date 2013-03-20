@@ -15,6 +15,8 @@ group :assets do
   gem 'therubyracer', :platforms => :ruby
   gem "less-rails"  #Sprockets
 
+  gem 'turbo-sprockets-rails3', :tag => 'v0.3.6'
+
   gem 'uglifier', '>= 1.0.3'
 end
 
