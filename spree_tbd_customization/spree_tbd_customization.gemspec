@@ -3,8 +3,8 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_tbd_customization'
   s.version     = '1.2.3.beta'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.summary     = 'common overrides'
+  s.description = 'common defaces and html.erb views'
   s.required_ruby_version = '>= 1.8.7'
 
   s.author    = 'Héctor Picazo'
