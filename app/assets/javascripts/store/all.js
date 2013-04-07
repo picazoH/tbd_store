@@ -19,3 +19,4 @@
 //= require twitter/bootstrap
 //= require_tree .
 //= require store/spree_social
+//= require spree_variant_options

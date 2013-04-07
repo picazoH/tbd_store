@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.12'
+gem 'rails', '3.2.13'
 
 gem 'mysql2'
 
@@ -46,8 +46,8 @@ gem 'jquery-rails', '~> 2.2.0'#'~> 2.1.4'
 
 
 gem 'spree',  :git => 'https://github.com/spree/spree.git', :branch => '1-3-stable'
-#gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise', :branch => '1-3-stable'
-gem 'spree_auth_devise', :git => 'https://github.com/picazoH/spree_auth_devise.git', :branch => '1-3-stable'
+gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise', :branch => '1-3-stable'
+#gem 'spree_auth_devise', :git => 'https://github.com/picazoH/spree_auth_devise.git', :branch => '1-3-stable'
 
 #i18n
 gem 'rails-i18n', :git => 'https://github.com/svenfuchs/rails-i18n.git'
@@ -84,15 +84,22 @@ gem 'spree_product_zoom', :git => 'https://github.com/spree/spree_product_zoom.g
 #spree_social
 gem "spree_social", :git => 'https://github.com/spree/spree_social.git', :branch => '1-3-stable'
 
+gem 'spree_variant_options', :git => 'https://github.com/sbounmy/spree_variant_options.git', :branch => '1-3-stable'
 
-### no 1.3 branch ###
+
+### no 1.3 branch or main repo###
 gem 'spree_contact_us', :git => 'https://github.com/picazoH/spree_contact_us.git', :branch => 'master'
 
 gem 'spree_showcase', :git => 'https://github.com/daemonsy/spree_showcase.git', :branch => 'master'
 
-gem 'spree_last_address', :git => 'https://github.com/TylerRick/spree_last_address.git', :branch => 'master'
-
 gem 'twitter-bootstrap-rails', :git => 'https://github.com/seyhunak/twitter-bootstrap-rails.git', :branch => 'master'
+
+gem 'spree_variant_all_options', :git => 'https://github.com/geermc4/spree_variant_all_options', :branch => 'master'
+
+#gem 'spree_address_book', :git => 'https://github.com/romul/spree_address_book.git', :branch => 'master'
+
+#gem "spree_flexi_variants", :git => 'https://github.com/bluehandtalking/spree_flexi_variants.git', :branch => 'spree-1-3-stable'
+
 
 
 ### FANCY THEME ###
