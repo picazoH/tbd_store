@@ -7,14 +7,6 @@ GIT
       spree_core (>= 1.3.0)
 
 GIT
-  remote: https://github.com/geermc4/spree_variant_all_options
-  revision: ea51f5a343613e53f7890bea4aec6357517a41bf
-  branch: master
-  specs:
-    spree_variant_all_options (0.0.1)
-      spree_core (>= 1.3)
-
-GIT
   remote: https://github.com/picazoH/spree_contact_us.git
   revision: f63d38dd36bce5cf094996b18e99555eb52f5fc1
   branch: master
@@ -54,12 +46,20 @@ GIT
       spree_core (>= 1.1.4)
 
 GIT
-  remote: https://github.com/sbounmy/spree_variant_options.git
-  revision: a36fd9ef1d6d7528bc4bdeb526ed4f6ee7afb8a5
+  remote: https://github.com/picazoH/spree_variant_all_options.git
+  revision: 79c64db1afea194cee07cbf506d79f8bd156e265
+  branch: master
+  specs:
+    spree_variant_all_options (0.0.1)
+      spree_core (>= 1.3)
+
+GIT
+  remote: https://github.com/picazoH/spree_variant_options.git
+  revision: 4e24a8845311b6a74724b7044e06714519598fd9
   branch: 1-3-stable
   specs:
     spree_variant_options (0.5.0)
-      spree_core (~> 1.3)
+      spree_core (>= 1.1.1)
 
 GIT
   remote: https://github.com/seyhunak/twitter-bootstrap-rails.git
@@ -119,7 +119,7 @@ GIT
 
 GIT
   remote: https://github.com/spree/spree_auth_devise
-  revision: a003c850e15454e6a5c09c4d0a1aa12d8775af4a
+  revision: a34edc9923382f5595d17809605feb875a9fdf0e
   branch: 1-3-stable
   specs:
     spree_auth_devise (1.0.0)
@@ -326,7 +326,7 @@ GEM
       thor (>= 0.13.6)
     hashie (1.2.0)
     highline (1.6.11)
-    hike (1.2.1)
+    hike (1.2.2)
     httparty (0.8.3)
       multi_json (~> 1.0)
       multi_xml
@@ -467,7 +467,7 @@ GEM
       libv8 (~> 3.11.8.12)
       ref
     thor (0.18.1)
-    tilt (1.3.6)
+    tilt (1.3.7)
     treetop (1.4.12)
       polyglot
       polyglot (>= 0.3.1)

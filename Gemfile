@@ -84,8 +84,8 @@ gem 'spree_product_zoom', :git => 'https://github.com/spree/spree_product_zoom.g
 #spree_social
 gem "spree_social", :git => 'https://github.com/spree/spree_social.git', :branch => '1-3-stable'
 
-gem 'spree_variant_options', :git => 'https://github.com/sbounmy/spree_variant_options.git', :branch => '1-3-stable'
-
+#gem 'spree_variant_options', :git => 'https://github.com/sbounmy/spree_variant_options.git', :branch => '1-3-stable'
+gem 'spree_variant_options', :git => 'https://github.com/picazoH/spree_variant_options.git', :branch => '1-3-stable'
 
 ### no 1.3 branch or main repo###
 gem 'spree_contact_us', :git => 'https://github.com/picazoH/spree_contact_us.git', :branch => 'master'
@@ -94,7 +94,7 @@ gem 'spree_showcase', :git => 'https://github.com/daemonsy/spree_showcase.git', 
 
 gem 'twitter-bootstrap-rails', :git => 'https://github.com/seyhunak/twitter-bootstrap-rails.git', :branch => 'master'
 
-gem 'spree_variant_all_options', :git => 'https://github.com/geermc4/spree_variant_all_options', :branch => 'master'
+gem 'spree_variant_all_options', :git => 'https://github.com/picazoH/spree_variant_all_options.git', :branch => 'master'
 
 #gem 'spree_address_book', :git => 'https://github.com/romul/spree_address_book.git', :branch => 'master'
 
