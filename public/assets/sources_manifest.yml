@@ -7,7 +7,6 @@ store/all.js: cfbbde8bc9aaeaba71267571561f565e
 admin/all.css: c9b0bd6e3bbffca01429bf1f4cc54e5e
 application.css: 23585b9b13b4a055fa85d367a780d0cc
 store/all.css: 20e72e73b5164e13945b269cb3ec265f
-store/out-of-stock.png: 2d16afa6ab78058f630a645e22e3cb83
 fontawesome-webfont.eot: 635909f146e208b3509acdf3b154bf0d
 fontawesome-webfont.ttf: 6a4e273908b7e43d9e479d38b8ae5957
 fontawesome-webfont.woff: a0fbd98b232e7e1ef9cdaad813b26eb3
@@ -15,6 +14,7 @@ twitter/bootstrap/glyphicons-halflings-white.png: 6cccd17a7aed91dbc0157d343c68c0
 twitter/bootstrap/glyphicons-halflings.png: 2851b489e8c39f8fad44fc10efb99c3e
 store/bg_control_nav.png: 49732eea28a9aa6f508431a3a2fdcda9
 store/bg_direction_nav.png: 7ce260b96dd52cf602f499a378db0f92
+store/out-of-stock.png: 2d16afa6ab78058f630a645e22e3cb83
 store/facebook_128.png: 6d97c166be18321e20ee8c1b5dd155fa
 store/facebook_256.png: 213f39fe439989f8289746a551511b47
 store/facebook_32.png: bf5f175745c83614f56237a2bc5d3954

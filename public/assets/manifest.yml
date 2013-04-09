@@ -15,8 +15,6 @@ application.css: application-7f2908a26b4ac88dde19d87c4c82b5ca.css
 application/index.css: application-7f2908a26b4ac88dde19d87c4c82b5ca.css
 store/all.css: store/all-c866a20c815d8627ad2c43c19cbc9d96.css
 store/all/index.css: store/all-c866a20c815d8627ad2c43c19cbc9d96.css
-store/out-of-stock.png: store/out-of-stock-2d16afa6ab78058f630a645e22e3cb83.png
-store/out-of-stock/index.png: store/out-of-stock-2d16afa6ab78058f630a645e22e3cb83.png
 fontawesome-webfont.eot: fontawesome-webfont-635909f146e208b3509acdf3b154bf0d.eot
 fontawesome-webfont/index.eot: fontawesome-webfont-635909f146e208b3509acdf3b154bf0d.eot
 fontawesome-webfont.ttf: fontawesome-webfont-6a4e273908b7e43d9e479d38b8ae5957.ttf
@@ -31,6 +29,8 @@ store/bg_control_nav.png: store/bg_control_nav-49732eea28a9aa6f508431a3a2fdcda9.
 store/bg_control_nav/index.png: store/bg_control_nav-49732eea28a9aa6f508431a3a2fdcda9.png
 store/bg_direction_nav.png: store/bg_direction_nav-7ce260b96dd52cf602f499a378db0f92.png
 store/bg_direction_nav/index.png: store/bg_direction_nav-7ce260b96dd52cf602f499a378db0f92.png
+store/out-of-stock.png: store/out-of-stock-2d16afa6ab78058f630a645e22e3cb83.png
+store/out-of-stock/index.png: store/out-of-stock-2d16afa6ab78058f630a645e22e3cb83.png
 store/facebook_128.png: store/facebook_128-6d97c166be18321e20ee8c1b5dd155fa.png
 store/facebook_128/index.png: store/facebook_128-6d97c166be18321e20ee8c1b5dd155fa.png
 store/facebook_256.png: store/facebook_256-213f39fe439989f8289746a551511b47.png
