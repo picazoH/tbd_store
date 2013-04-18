@@ -68,7 +68,8 @@ gem 'spree_social_products', :git => 'https://github.com/spree/spree_social_prod
 gem 'spree_paypal_express', :git => 'https://github.com/spree/spree_paypal_express.git', :branch => '1-3-stable'
 
 #Spree Volume pricing , you have to change then name of the table manually
-gem 'spree_volume_pricing', :git => 'https://github.com/spree/spree_volume_pricing', :branch => '1-3-stable'
+#gem 'spree_volume_pricing', :git => 'https://github.com/spree/spree_volume_pricing', :branch => '1-3-stable'
+gem 'spree_volume_pricing', :git => 'https://github.com/spree/spree_volume_pricing', :branch => 'master'
 
 #Reviews Straightforward review/rating facility
 gem 'spree_reviews', :git => 'https://github.com/spree/spree_reviews.git', :branch => '1-3-stable'
@@ -95,6 +96,7 @@ gem 'spree_showcase', :git => 'https://github.com/daemonsy/spree_showcase.git', 
 gem 'twitter-bootstrap-rails', :git => 'https://github.com/seyhunak/twitter-bootstrap-rails.git', :branch => 'master'
 
 gem 'spree_variant_all_options', :git => 'https://github.com/picazoH/spree_variant_all_options.git', :branch => 'master'
+#gem 'spree_variant_all_options', :path => '../spree/spree_variant_all_options'
 
 #gem 'spree_address_book', :git => 'https://github.com/romul/spree_address_book.git', :branch => 'master'
 
