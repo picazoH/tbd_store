@@ -1,9 +1,10 @@
 <!--
-  replace_contents 'a#ppx'
-  original '0fdc6d48016969b743d9e552b9b1dc328adc2738'
+  replace 'input#ppx'
+   original '9f74a06ba19bd0daf9826a67dcff57755e02c236'
 -->
 <% if I18n.locale.to_s.include? "es" %>
-    <img src="https://www.paypal.com/es_ES/i/btn/btn_xpressCheckout.gif" alt="paypal_payment image" />
+    <INPUT TYPE="image" id="ppx" src="https://www.paypal.com/es_ES/i/btn/btn_xpressCheckout.gif" align="left" style="margin-right:7px;"/>
+
 <% else %>
-    <img src="https://www.paypal.com/en_US/i/btn/btn_xpressCheckout.gif"  alt="<%= t(:paypal_payment) %>" />
+    <INPUT TYPE="image" id="ppx" src="https://www.paypal.com/en_US/i/btn/btn_xpressCheckout.gif" align="left" style="margin-right:7px;"/>
 <% end %>
