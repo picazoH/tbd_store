@@ -103,7 +103,6 @@ gem 'spree_variant_all_options', :git => 'https://github.com/picazoH/spree_varia
 #gem "spree_flexi_variants", :git => 'https://github.com/bluehandtalking/spree_flexi_variants.git', :branch => 'spree-1-3-stable'
 
 
-
 ### FANCY THEME ###
 #gem 'spree_fancy', :git => 'https://github.com/spree/spree_fancy.git', :branch => 'master'
 #gem 'spree_flat_in_range', :path => '../spree_flat_in_range'

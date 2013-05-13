@@ -20,9 +20,13 @@ Spree.config do |config|
   config.allow_ssl_in_production = false
   #SpreeSocialProducts config.facebook_app_id = 'YOUR_FACEBOOK_APP_ID'
   config.show_zero_stock_products = true #http://guides.spreecommerce.com/inventory.html
+  config.track_inventory_levels = false
+  config.allow_backorder_shipping = true
   #config.address_requires_state = false
   config.shipping_instructions = true
 end
 
 Spree.user_class = "Spree::User"
 Rails.application.config.i18n.default_locale = :es
+
+#ActiveMerchant::Billing::Base.integration_mode = :test
