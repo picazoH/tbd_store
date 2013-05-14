@@ -38,7 +38,7 @@ GIT
 
 GIT
   remote: https://github.com/picazoH/spree_sermepa.git
-  revision: 94c61f7c5cd62c0e6f3e0608a3a22f88f434b37a
+  revision: 5cda043ee6735137f15f01b86fc98e0cfa6a3c4e
   branch: master
   specs:
     spree_sermepa (1.2.3)
@@ -350,8 +350,7 @@ GEM
       actionpack (>= 3.1)
       less (~> 2.3.1)
     libv8 (3.11.8.17)
-    mail (2.5.3)
-      i18n (>= 0.4.0)
+    mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.23)
