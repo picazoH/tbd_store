@@ -38,7 +38,7 @@ GIT
 
 GIT
   remote: https://github.com/picazoH/spree_sermepa.git
-  revision: d34da04b5869f70721b5182b06e7cab86ee6fe76
+  revision: 41fec87bc52d3f16d36b5e54c28276173f834f03
   branch: master
   specs:
     spree_sermepa (1.2.3)
