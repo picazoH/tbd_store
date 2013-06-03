@@ -4,6 +4,7 @@ gem 'rails', '3.2.13'
 
 gem 'mysql2'
 
+gem 'deface', '1.0.0.rc2'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -75,7 +76,8 @@ gem 'spree_volume_pricing', :git => 'https://github.com/spree/spree_volume_prici
 gem 'spree_reviews', :git => 'https://github.com/spree/spree_reviews.git', :branch => '1-3-stable'
 
 #SpreeMultiLingual
-gem 'spree_multi_lingual', :git => 'https://github.com/picazoH/spree_multi_lingual.git', :branch => '1-3-stable'
+#gem 'spree_multi_lingual', :git => 'https://github.com/picazoH/spree_multi_lingual.git', :branch => '1-3-stable'
+gem 'spree_multi_lingual', :git => 'https://github.com/jipiboily/spree_multi_lingual.git', :branch => '1-3-stable'
 
 gem 'globalize3', :git => 'https://github.com/svenfuchs/globalize3.git', :tag => 'v0.2.0'
 
@@ -88,6 +90,13 @@ gem "spree_social", :git => 'https://github.com/spree/spree_social.git', :branch
 #gem 'spree_variant_options', :git => 'https://github.com/sbounmy/spree_variant_options.git', :branch => '1-3-stable'
 gem 'spree_variant_options', :git => 'https://github.com/picazoH/spree_variant_options.git', :branch => '1-3-stable'
 
+
+gem 'spree_editor', :git => 'https://github.com/spree/spree_editor.git', :branch => '1-3-stable'
+gem 'tinymce-rails', '>= 3.4.7.0.1'
+gem 'ckeditor', '~> 4.0.2'
+
+
+
 ### no 1.3 branch or main repo###
 gem 'spree_contact_us', :git => 'https://github.com/picazoH/spree_contact_us.git', :branch => 'master'
 
@@ -96,11 +105,16 @@ gem 'spree_showcase', :git => 'https://github.com/daemonsy/spree_showcase.git', 
 gem 'twitter-bootstrap-rails', :git => 'https://github.com/seyhunak/twitter-bootstrap-rails.git', :branch => 'master'
 
 gem 'spree_variant_all_options', :git => 'https://github.com/picazoH/spree_variant_all_options.git', :branch => 'master'
+
 #gem 'spree_variant_all_options', :path => '../spree/spree_variant_all_options'
 
 #gem 'spree_address_book', :git => 'https://github.com/romul/spree_address_book.git', :branch => 'master'
 
 #gem "spree_flexi_variants", :git => 'https://github.com/bluehandtalking/spree_flexi_variants.git', :branch => 'spree-1-3-stable'
+
+gem 'spree_sitemap', :git => 'https://github.com/jdutil/spree_sitemap', :branch => 'master'
+gem 'whenever', :require => false
+
 
 
 ### FANCY THEME ###
