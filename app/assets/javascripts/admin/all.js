@@ -17,3 +17,4 @@
 
 //require admin/spree_clean
 //= require admin/spree_social
+//= require admin/spree_editor

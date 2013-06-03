@@ -20,3 +20,4 @@
 //= require_tree .
 //= require store/spree_social
 //= require spree_variant_options
+//= require store/spree_multi_lingual
