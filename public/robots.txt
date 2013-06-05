@@ -12,4 +12,3 @@ Disallow: /
 #Disallow: /states
 #Disallow: /user_sessions
 #Disallow: /users
-                                                                                                                           rvm
