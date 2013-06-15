@@ -21,3 +21,4 @@
 //= require store/spree_social
 //= require spree_variant_options
 //= require store/spree_multi_lingual
+//= require store/spree_flexi_variants

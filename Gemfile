@@ -84,6 +84,7 @@ gem 'globalize3', :git => 'https://github.com/svenfuchs/globalize3.git', :tag =>
 #spree_product_zoom
 gem 'spree_product_zoom', :git => 'https://github.com/spree/spree_product_zoom.git', :branch => '1-3-stable'
 
+
 #spree_social
 gem "spree_social", :git => 'https://github.com/spree/spree_social.git', :branch => '1-3-stable'
 
@@ -95,7 +96,8 @@ gem 'spree_editor', :git => 'https://github.com/spree/spree_editor.git', :branch
 gem 'tinymce-rails', '>= 3.4.7.0.1'
 gem 'ckeditor', '~> 4.0.2'
 
-
+#spree_flexi_variants
+gem 'spree_flexi_variants', :git => 'https://github.com/jsqu99/spree_flexi_variants.git', :branch => 'spree-1-3-stable'
 
 ### no 1.3 branch or main repo###
 gem 'spree_contact_us', :git => 'https://github.com/picazoH/spree_contact_us.git', :branch => 'master'
