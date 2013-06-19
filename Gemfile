@@ -107,17 +107,10 @@ gem 'spree_showcase', :git => 'https://github.com/daemonsy/spree_showcase.git', 
 gem 'twitter-bootstrap-rails', :git => 'https://github.com/seyhunak/twitter-bootstrap-rails.git', :branch => 'master'
 
 gem 'spree_variant_all_options', :git => 'https://github.com/picazoH/spree_variant_all_options.git', :branch => 'master'
-
 #gem 'spree_variant_all_options', :path => '../spree/spree_variant_all_options'
-
-#gem 'spree_address_book', :git => 'https://github.com/romul/spree_address_book.git', :branch => 'master'
-
-#gem "spree_flexi_variants", :git => 'https://github.com/bluehandtalking/spree_flexi_variants.git', :branch => 'spree-1-3-stable'
 
 gem 'spree_sitemap', :git => 'https://github.com/jdutil/spree_sitemap', :branch => 'master'
 gem 'whenever', :require => false
-
-
 
 ### FANCY THEME ###
 #gem 'spree_fancy', :git => 'https://github.com/spree/spree_fancy.git', :branch => 'master'
