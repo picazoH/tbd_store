@@ -14,15 +14,20 @@ Spree.config do |config|
   #Check AppConfiguration inside models spree in spree_core
   #admin_interface_logo, default_meta_description, default_meta_keywords, default_seo_title, logo, orders_per_page,site_name,site_url
   config.site_name = 'tienda 2beDigital demo'
-  #config.default_country_id = 188
+  config.default_country_id = 188
   config.admin_interface_logo = 'admin/bg/spree_50.png'
   config.logo = '2bD-logo.png'
-  config.allow_ssl_in_production = false
-  #SpreeSocialProducts config.facebook_app_id = 'YOUR_FACEBOOK_APP_ID'
+  config.allow_ssl_in_production = true
+  #SpreeSocialProducts Spree::Config.facebook_app_id = '572946162728681' Rails console
+  config.address_requires_state = true
+  config.allow_guest_checkout = false
+  config.products_per_page = 12
+  config.company = true
+
+  #inventory, stocks, shipping
   config.show_zero_stock_products = true #http://guides.spreecommerce.com/inventory.html
   config.track_inventory_levels = false
   config.allow_backorder_shipping = true
-  #config.address_requires_state = false
   config.shipping_instructions = true
 end
 

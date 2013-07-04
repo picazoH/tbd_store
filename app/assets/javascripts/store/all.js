@@ -16,7 +16,7 @@
 //= require store/spree_social_products
 //= require store/spree_product_zoom
 //= require jquery.flexslider
-//= require twitter/bootstrap
+//= require bootstrap
 //= require_tree .
 //= require store/spree_social
 //= require spree_variant_options

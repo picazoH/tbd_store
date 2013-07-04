@@ -1,0 +1,13 @@
+<!-- replace 'code:contains("title")' -->
+<!-- sequence :after => 'add_message_es_jquery_validate_to_the_head'
+     original '7cb303acf978161f36666c7937b28b8a174efe48'
+-->
+<% if  @page && @page.title.present? %>
+     <%= @page.title %>
+<% else %>
+    <% if I18n.locale.to_s.include? "en" %>
+        <%= t :default_title %>
+    <% else %>
+        <%= title %>
+    <% end %>
+<% end %>

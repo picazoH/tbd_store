@@ -1,5 +1,4 @@
 <!-- replace_contents '[data-hook="admin_tabs"]'
-     original '916265ac3d22e4a39a34b8e4c8d792383fd6640b'
 -->
 <% if spree_current_user.email.include? "@2bedigital.com" %>
     <%= render :partial => 'spree/admin/shared/tabs' %>

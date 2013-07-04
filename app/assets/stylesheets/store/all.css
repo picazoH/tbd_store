@@ -13,6 +13,7 @@
  *= require store/spree_social_products
  *= require store/spree_product_zoom
  *= require store/spree_showcase
-*= require spree_variant_options
+ *= require spree_variant_options
  *= require store/spree_multi_lingual
+ *= require bootstrap
 */

@@ -1,0 +1,16 @@
+<!-- replace 'code:contains("meta_data_tags")' -->
+<!-- sequence :after => 'title_multilanguage'
+     original '00266612d00989fa4eec8cc5070f340ca0d1f062'
+-->
+<% unless @page && @page.meta_description.present? %>
+    <% if I18n.locale.to_s.include? "en" %>
+        <%if @product %>
+            <%== meta_data_tags %>
+        <% else %>
+            <meta content="<%= t(:default_meta_description) %>" name="description" />
+            <meta content="<%= t(:default_meta_keywords) %>" name="keywords" />
+        <% end %>
+    <% else %>
+        <%== meta_data_tags %>
+    <% end %>
+<% end %>

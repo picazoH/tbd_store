@@ -1,0 +1,5 @@
+<!-- replace 'h1.taxon-title'
+-->
+    <h1 class="taxon-title"><%= @taxon.description.presence || accurate_title %></h1>
+
+

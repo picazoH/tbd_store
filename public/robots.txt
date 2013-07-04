@@ -12,3 +12,4 @@ Disallow: /
 #Disallow: /states
 #Disallow: /user_sessions
 #Disallow: /users
+#Disallow: /admin

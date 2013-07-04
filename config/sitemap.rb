@@ -1,5 +1,6 @@
-# Set the host name for URL creation
-SitemapGenerator::Sitemap.default_host = "http://www.tbd_store_by_hp.com"
+# Set the host name for URL creation SitemapGenerator::Sitemap.default_host = "http://#{Spree::Config[:site_url]}"
+#SitemapGenerator::Sitemap.default_host = "http://www.tbd_store_by_hp.com"
+SitemapGenerator::Sitemap.default_host = "http://#{Spree::Config[:site_url]}"
 
 SitemapGenerator::Sitemap.create do
   # Put links creation logic here.

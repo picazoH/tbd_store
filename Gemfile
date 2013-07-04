@@ -10,15 +10,17 @@ gem 'deface', '1.0.0.rc2'
 # in production environments by default.
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
 
+  gem 'bootstrap-sass', '~> 2.3.2.0'
+
+  gem 'compass-rails'
+  gem 'coffee-rails', '~> 3.2.1'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer', :platforms => :ruby
-  gem "less-rails"  #Sprockets
-
+  #gem 'less-rails'  #Sprockets
   gem 'turbo-sprockets-rails3', :tag => 'v0.3.6'
-
   gem 'uglifier', '>= 1.0.3'
+
 end
 
 group :development do
@@ -86,7 +88,7 @@ gem 'spree_product_zoom', :git => 'https://github.com/spree/spree_product_zoom.g
 
 
 #spree_social
-gem "spree_social", :git => 'https://github.com/spree/spree_social.git', :branch => '1-3-stable'
+gem 'spree_social', :git => 'https://github.com/spree/spree_social.git', :branch => '1-3-stable'
 
 #gem 'spree_variant_options', :git => 'https://github.com/sbounmy/spree_variant_options.git', :branch => '1-3-stable'
 gem 'spree_variant_options', :git => 'https://github.com/picazoH/spree_variant_options.git', :branch => '1-3-stable'
@@ -104,7 +106,7 @@ gem 'spree_contact_us', :git => 'https://github.com/picazoH/spree_contact_us.git
 
 gem 'spree_showcase', :git => 'https://github.com/daemonsy/spree_showcase.git', :branch => 'master'
 
-gem 'twitter-bootstrap-rails', :git => 'https://github.com/seyhunak/twitter-bootstrap-rails.git', :branch => 'master'
+#gem 'twitter-bootstrap-rails', :git => 'https://github.com/seyhunak/twitter-bootstrap-rails.git', :branch => 'master'
 
 gem 'spree_variant_all_options', :git => 'https://github.com/picazoH/spree_variant_all_options.git', :branch => 'master'
 #gem 'spree_variant_all_options', :path => '../spree/spree_variant_all_options'

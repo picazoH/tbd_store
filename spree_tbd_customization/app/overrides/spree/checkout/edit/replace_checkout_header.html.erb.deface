@@ -1,0 +1,8 @@
+<!-- replace '[data-hook="checkout_header"]'
+     original 'e90036f2fc4166e77ae88b40dc29b95c5ac340c5'
+-->
+<div class="row" data-hook="checkout_header">
+  <div class="columns four alpha" data-hook="pre-checkout_progress">&nbsp;</div>
+  <div class="columns eight omega" data-hook="checkout_progress"><%= checkout_progress %></div>
+  <div class="columns four alpha" data-hook="post-checkout_progress">&nbsp;</div>
+</div>

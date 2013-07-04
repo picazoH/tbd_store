@@ -1,0 +1,6 @@
+<!-- replace_contents '[data-hook="admin_products_index_row_actions"]'
+     original '681469df467c14aa49b8a5dc6bf6f3d043bc8fb0'
+-->
+<%= link_to_edit product, :no_text => true, :class => 'edit' unless product.deleted? %>
+&nbsp;
+<%= link_to_delete product, :no_text => true unless product.deleted? %>
