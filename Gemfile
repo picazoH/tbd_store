@@ -1,18 +1,19 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.13'
+gem 'rails', '3.2.14'
 
 gem 'mysql2'
+
+gem 'newrelic_rpm'
 
 gem 'deface', '1.0.0.rc2'
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-
-  gem 'bootstrap-sass', '~> 2.3.2.0'
-
+  gem 'sass-rails',   '~> 3.2.6'
+  gem 'bootstrap-sass', '~> 2.3.2.1'
+  gem 'font-awesome-rails'
   gem 'compass-rails'
   gem 'coffee-rails', '~> 3.2.1'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -24,12 +25,12 @@ group :assets do
 end
 
 group :development do
-  # gem 'graffity'
+
   #gem 'datashift'
   #gem 'datashift_spree'
 
   #Enable admin store://require admin/spree_clean
-  #gem 'spree_clean', :git => "https://github.com/spree/spree_clean.git", :branch => 'master'
+  #gem 'spree_clean', :git => "https://github.com/spree/spree_clean.git", :tag => 'v1.0.6'
   gem 'capistrano'
 end
 
@@ -53,7 +54,7 @@ gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise', :
 #gem 'spree_auth_devise', :git => 'https://github.com/picazoH/spree_auth_devise.git', :branch => '1-3-stable'
 
 #i18n
-gem 'rails-i18n', :git => 'https://github.com/svenfuchs/rails-i18n.git'
+gem 'rails-i18n', :git => 'https://github.com/svenfuchs/rails-i18n.git', :branch => 'rails-3-x'
 gem 'spree_i18n', :git => 'https://github.com/spree/spree_i18n.git', :branch => '1-3-stable'
 
 ##Spree Static Content
@@ -72,7 +73,7 @@ gem 'spree_paypal_express', :git => 'https://github.com/spree/spree_paypal_expre
 
 #Spree Volume pricing , you have to change then name of the table manually
 #gem 'spree_volume_pricing', :git => 'https://github.com/spree/spree_volume_pricing', :branch => '1-3-stable'
-gem 'spree_volume_pricing', :git => 'https://github.com/spree/spree_volume_pricing', :branch => 'master'
+gem 'spree_volume_pricing', :git => 'https://github.com/spree/spree_volume_pricing', :branch => '1-3-stable'
 
 #Reviews Straightforward review/rating facility
 gem 'spree_reviews', :git => 'https://github.com/spree/spree_reviews.git', :branch => '1-3-stable'

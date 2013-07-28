@@ -11,7 +11,7 @@
 //= require store/spree_promo
 
 
-//= require jquery-migrate-1.1.1.min
+//= require jquery-migrate-1.2.1.min
 //= require jquery.rating
 //= require store/spree_social_products
 //= require store/spree_product_zoom
