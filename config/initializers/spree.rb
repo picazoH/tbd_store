@@ -36,5 +36,4 @@ Spree::AppConfiguration.class_eval do
   preference :mail_from_default, :string, :default => 'comercial@xxx.com'
 end
 
-#Rails.application.config.i18n.default_locale = :es
 #ActiveMerchant::Billing::Base.integration_mode = :test
