@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <style type="text/css">
+      a {
+          border: none;
+          text-decoration: none;
+          color: #00b2ec;
+      }
+      a:hover{
+          text-decoration: underline;
+          color: #00b2ec;
+      }
+      img {
+          border: none;
+      }
+      p {
+          margin: 0;
+          line-height: 1.3em;
+      }
+      #footer-msg a {
+          color: #F3A836;
+      }
+      h1, h2, h3, h4, h5, h6 {
+          font-size: 100%;
+          margin: 0;
+      }
+  </style>
+</head>
+<body style="margin: 0; padding: 0; background-color: #403030" bgcolor="#403030">
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+  <tr>
+    <td style="padding: 37px 0; background-color: #403030;" align="center" bgcolor="#403030">
+
+      <!-- #nl_container -->
+      <table style="margin: 0; border: 1px solid #dddddd; color: #444444; font-family: arial; font-size: 12px; border-color: #dddddd; background-color: #ffffff; "
+             border="0" cellpadding="0" cellspacing="0" width="600">
+        <tbody>
+        <tr>
+          <td>
+
+            <!-- #nl_header -->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+              <tbody>
+              <tr>
+                <td>
+                  <a href="http://www.xxxx.com"
+                     style="display: block;border: none;">
+                    <img alt="<%= t('order_mailer.cancel_email.dear_customer') %>" style="display: block; width: 600px;border: none;"
+                         src="<%= 'http://'+Spree::Config[:site_url] + image_path('orden-cancelada_'+I18n.locale.to_s+'.jpg') %>" width="600">
+                  </a>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+            <!-- #nl_content -->
+            <table style="margin: 0; border-collapse: collapse;" border="0" cellpadding="0" cellspacing="0" width="100%">
+              <tbody>
+              <tr>
+                <td style="color: #444444; font-family: arial; font-size: 12px; border-color: #dddddd; background-color: #ffffff;  padding: 5px 0;" align="left">
+                  <table style="margin: 0 0 0 10px;border-collapse:collapse;color: #444444; font-family: arial; font-size: 12px; border-color: #dddddd; background-color: #ffffff; ">
+                    <tbody>
+                    <tr>
+                      <td style="vertical-align: top; padding: 5px 0; " width="580">
+                        <table style="border-collapse:collapse;width:565px;color: #444444; font-family: arial; font-size: 12px; border-color: #dddddd; background-color: #ffffff; " cellpadding="0" cellspacing="0" width="565">
+                          <tbody>
+                          <tr>
+                            <td style="padding:5px 0 5px 5px;line-height:normal;color: #444444; font-family: arial; font-size: 12px; border-color: #dddddd; background-color: #ffffff; ">
+                              <p style="margin: 0 0 10px;line-height: 1.3em;"><%= t('order_mailer.cancel_email.dear_customer') %>&nbsp;<%= @order.ship_address.firstname %><br>
+                                <strong><%=  t('order_mailer.cancel_email.instructions') %></strong><br><br>
+                                ================================================================================<br>
+                                <strong><%= t('order_mailer.cancel_email.order_summary_canceled') %></strong><br>
+                                ================================================================================<br>
+                                <% @order.line_items.each do |item| %>
+                                    <%= item.variant.sku %> <%= raw(item.variant.product.name) %> <%= raw(item.variant.options_text) -%> (<%=item.quantity%>) @ <%= item.single_money %> = <%= item.display_amount %><br>
+                                <% end %>
+                                ================================================================================<br>
+                                <%= t('order_mailer.cancel_email.subtotal') %>&nbsp;<%= @order.display_item_total.to_s %><br><br>
+                                <% @order.adjustments.eligible.each do |adjustment| %>
+                                    <%= raw(adjustment.label) %> <%= adjustment.display_amount %><br>
+                                <% end %>
+                                <br>
+                                <strong>
+                                  <%= t('order_mailer.cancel_email.total') %><%= @order.display_total.to_s %><%if I18n.locale.to_s.include? "es"%>&nbsp;(IVA incl.)<%end%>
+                                </strong>
+                                <br>
+
+                            </td>
+                          </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    </tbody>
+                  </table>
+                  <table style="margin: 0 0 0 10px;border-collapse:collapse;color: #444444; font-family: arial; font-size: 12px; border-color: #dddddd; background-color: #ffffff; ">
+                    <tbody>
+                    <tr>
+                      <td style="vertical-align: top; padding: 5px 0; " width="580">
+                        <table style="border-collapse:collapse;width:565px;color: #444444; font-family: arial; font-size: 12px; border-color: #dddddd; background-color: #ffffff; "
+                               cellpadding="0" cellspacing="0" width="565">
+                          <tbody>
+                          <tr>
+                            <td style="padding:5px 0 5px 5px;line-height:normal;">
+                              <table border="0" cellpadding="0" cellspacing="0"
+                                     width="100%">
+                                <tbody>
+                                <tr>
+                                  <td>
+                                    <table align="left" border="0" cellpadding="0"
+                                           cellspacing="0">
+                                      <tbody>
+                                      <tr>
+                                        <td>
+                                          <table style="border-collapse: collapse; align: left"
+                                                 align="left" cellpadding="0"
+                                                 cellspacing="0">
+                                            <tbody>
+                                            <tr>
+                                              <td>
+                                                <strong><%= t :follow_us_on%></strong>
+                                                <br><br>
+                                                <a href="https://www.facebook.com/xxxxsl" target="Fb-xxxx" title="Facebook" style="text-decoration: none;">
+                                                  <%= image_tag 'http://'+Spree::Config[:site_url] + image_path('icon-fb.png'), :alt => "xxxx Fb", :id => "fb-logo"%>
+                                                </a>
+                                                <a href="https://plus.google.com/b/112478355983910627747/112478355983910627747/about" target="Gplus-xxxx" title="Google plus" style="text-decoration: none;">
+                                                  <%= image_tag 'http://'+Spree::Config[:site_url] + image_path('icon-google.png'), :alt => "xxxx G+", :id => "gplus-logo" %>
+                                                </a>
+                                                <a href="https://twitter.com/xxxx" target="Tw-xxxx" title="Twitter" style="text-decoration: none;">
+                                                  <%= image_tag 'http://'+Spree::Config[:site_url] + image_path('icon-tw.png'), :alt => "xxxx Tw", :id => "Tw-logo" %>
+                                                </a>
+                                                <a href="http://www.youtube.com/user/xxxxsl" target="Yt-xxxx" title="Youtube" style="text-decoration: none;">
+                                                  <%= image_tag 'http://'+Spree::Config[:site_url] + image_path('youtube.png'), :alt => "xxxx Youtube", :id => "Tw-logo" %>
+                                                </a>
+                                                <br>
+                                              </td>
+                                            </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    </tbody>
+                  </table>
+                  <table style="margin: 0 0 0 10px;border-collapse:collapse;color: #444444; font-family: arial; font-size: 12px; border-color: #dddddd; background-color: #ffffff; ">
+                    <tbody>
+                    <tr>
+                      <td style="vertical-align: top; padding: 5px 0; " width="580">
+                        <div style="padding: 6px; text-align: center;">
+                          <a href="http://www.xxxx.com/" style="border: none;">
+                            <img alt="<%= 'http://'+Spree::Config[:site_url] %>" style="display: block; margin: 0 auto;border: none;" src="<%= 'http://'+Spree::Config[:site_url] + image_path('footer_email.jpg') %>" height="35" width="580" >
+                          </a>
+                        </div>
+                      </td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+
+</body>
+</html>

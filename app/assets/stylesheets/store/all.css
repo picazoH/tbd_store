@@ -16,4 +16,5 @@
  *= require spree_variant_options
  *= require store/spree_multi_lingual
  *= require bootstrap
+ *= require store/spree_minicart
 */

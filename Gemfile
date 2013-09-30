@@ -48,8 +48,11 @@ gem 'jquery-rails', '~> 2.2.0'#'~> 2.1.4'
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
 
+# 01 Aug 01, 2013, gem 'spree',  :git => 'https://github.com/spree/spree.git', :ref => '2392cb922c8a1b2e9c4dd68a64dc29d8ac6b422c' #:branch => '1-3-stable'
 
-gem 'spree',  :git => 'https://github.com/spree/spree.git', :branch => '1-3-stable'
+#Sep 10, 2013
+gem 'spree',  :git => 'https://github.com/spree/spree.git', :ref => 'fa561225f56042db1ccd80807a9fa209c4405433' #:branch => '1-3-stable'
+
 gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise', :branch => '1-3-stable'
 #gem 'spree_auth_devise', :git => 'https://github.com/picazoH/spree_auth_devise.git', :branch => '1-3-stable'
 
@@ -100,13 +103,16 @@ gem 'tinymce-rails', '>= 3.4.7.0.1'
 gem 'ckeditor', '~> 4.0.2'
 
 #spree_flexi_variants
-gem 'spree_flexi_variants', :git => 'https://github.com/jsqu99/spree_flexi_variants.git', :branch => 'spree-1-3-stable'
+#gem 'spree_flexi_variants', :git => 'https://github.com/jsqu99/spree_flexi_variants.git', :branch => 'spree-1-3-stable'
 
 ### no 1.3 branch or main repo###
 gem 'spree_contact_us', :git => 'https://github.com/picazoH/spree_contact_us.git', :branch => 'master'
 
 gem 'spree_showcase', :git => 'https://github.com/daemonsy/spree_showcase.git', :branch => 'master'
 
+# Base on https://github.com/joneslee85/spree_ajax_add_to_cart/network 1.3x compatible
+#gem 'spree_ajax_add_to_cart', :git => 'https://github.com/rafa-garcia/spree_ajax_add_to_cart', :branch => 'master'
+gem 'spree_minicart', :git => 'https://github.com/sbounmy/spree_minicart.git', :branch => '1-3-stable'
 #gem 'twitter-bootstrap-rails', :git => 'https://github.com/seyhunak/twitter-bootstrap-rails.git', :branch => 'master'
 
 gem 'spree_variant_all_options', :git => 'https://github.com/picazoH/spree_variant_all_options.git', :branch => 'master'
@@ -114,6 +120,7 @@ gem 'spree_variant_all_options', :git => 'https://github.com/picazoH/spree_varia
 
 gem 'spree_sitemap', :git => 'https://github.com/jdutil/spree_sitemap', :branch => 'master'
 gem 'whenever', :require => false
+
 
 ### FANCY THEME ###
 #gem 'spree_fancy', :git => 'https://github.com/spree/spree_fancy.git', :branch => 'master'
@@ -124,8 +131,8 @@ gem 'whenever', :require => false
 #2beDigital Customization “integrated” extension
 gem 'spree_tbd_customization', :path => 'spree_tbd_customization'
 
-gem 'spree_sermepa', :git => 'https://github.com/picazoH/spree_sermepa.git', :branch => 'master'
-#gem 'spree_sermepa', :path => '../spree_sermepa'
+#gem 'spree_sermepa', :git => 'https://github.com/picazoH/spree_sermepa.git', :branch => 'master'
+gem 'spree_sermepa', :path => '../spree_sermepa'
 
 gem 'spree_kiala', :git => 'https://github.com/picazoH/spree_kiala.git', :branch => 'master'
 #gem 'spree_kiala', :path => '../spree_kiala'

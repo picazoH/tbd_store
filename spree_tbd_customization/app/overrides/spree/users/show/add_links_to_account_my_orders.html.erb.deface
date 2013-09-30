@@ -1,0 +1,12 @@
+<!--
+     insert_bottom '[data-hook="account_my_orders"]'
+     sequence :after => 'add_class_to_table_order_summary'
+-->
+<p data-hook="links">
+  <%= link_to t(:back_to_store), spree.root_path, :class => "btn" %>
+  <% unless params.has_key? :checkout_complete %>
+      <% if try_spree_current_user && respond_to?(:spree_account_path) %>
+          <%= link_to t(:my_account), spree_account_path, :class => "btn" %>
+      <% end %>
+  <% end %>
+</p>

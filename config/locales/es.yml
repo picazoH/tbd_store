@@ -2,3 +2,33 @@ es:
  hello: "Hola Mundo"
  bulk_discount: "Descuento por volumen"
  coupon_code_not_found: "No se ha encontrado el código de cupón"
+ view_shopping_cart: "Ver carrito de la compra"
+ filter_results: "Filtrar resultados"
+ back_to_orders_list: "Volver al listado de pedidos"
+ no_orders_found: "No se encontraron pedidos"
+ views:
+    pagination:
+      first: "&laquo; Primera"
+      last: "Última &raquo;"
+      previous: "&lsaquo; Anterior"
+      next: "Siguiente &rsaquo;"
+      truncate: "..."
+ order_mailer:
+    cancel_email:
+      dear_customer: "Estimado cliente,"
+      instructions: "Su compra ha sido CANCELADA. Por favor revise y mantenga la información de su pedido."
+      order_summary_canceled: "Resumen de su Orden [CANCELADA]"
+      subject: "Compra Cancelada"
+      subtotal: "Subtotal:"
+      total: "Orden Total:"
+    confirm_email:
+      dear_customer: "Estimado cliente,"
+      instructions: "Por favor revise y mantenga la información de su pedido."
+      order_summary: "Resumen de la compra"
+      subject: "Confirmación de su compra"
+      subtotal: "Subtotal:"
+      thanks: "¡Gracias por su compra!"
+      total: "Compra Total:"
+ devise:
+    failure:
+       already_authenticated: "Ya estás autenticado."

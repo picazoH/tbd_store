@@ -17,7 +17,7 @@ Spree.config do |config|
   config.default_country_id = 188
   config.admin_interface_logo = 'admin/bg/spree_50.png'
   config.logo = '2bD-logo.png'
-  config.allow_ssl_in_production = true
+  config.allow_ssl_in_production = false
   #SpreeSocialProducts Spree::Config.facebook_app_id = '572946162728681' Rails console
   config.address_requires_state = true
   config.allow_guest_checkout = false
@@ -36,4 +36,8 @@ Spree::AppConfiguration.class_eval do
   preference :mail_from_default, :string, :default => 'comercial@xxx.com'
 end
 
+# Spree::Config is an instance of Spree::AppConfiguration
+Spree::Config.mail_from_default = 'comercial@xxx.com'
+
 #ActiveMerchant::Billing::Base.integration_mode = :test
+Rails.application.config.i18n.default_locale = :es

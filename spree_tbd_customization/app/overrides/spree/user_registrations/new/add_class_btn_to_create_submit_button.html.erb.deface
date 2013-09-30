@@ -1,0 +1,5 @@
+<!--
+     replace 'code:contains("f.submit t(:create)")'
+     sequence :after => 'change_h6_new_customer_for_h1'
+-->
+<%= f.submit t(:create), :class => 'button primary btn' %>

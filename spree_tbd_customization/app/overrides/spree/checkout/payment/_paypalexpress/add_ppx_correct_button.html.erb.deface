@@ -1,6 +1,5 @@
 <!--
   replace 'input#ppx'
-   original '9f74a06ba19bd0daf9826a67dcff57755e02c236'
 -->
 <% if I18n.locale.to_s.include? "es" %>
     <INPUT TYPE="image" id="ppx" src="https://www.paypal.com/es_ES/i/btn/btn_xpressCheckout.gif" align="left" style="margin-right:7px;"/>

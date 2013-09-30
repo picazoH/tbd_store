@@ -18,4 +18,4 @@
 //require admin/spree_clean
 //= require admin/spree_social
 //= require admin/spree_editor
-//= require admin/spree_flexi_variants
+//require admin/spree_flexi_variants

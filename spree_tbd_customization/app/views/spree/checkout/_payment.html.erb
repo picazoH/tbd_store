@@ -1,0 +1,43 @@
+<fieldset id="payment" data-hook>
+  <legend align="center"><%= t(:payment_information) %></legend>
+  <div data-hook="checkout_payment_step">
+    <% @order.available_payment_methods.each do |method| %>
+
+    <p>
+      <label>
+
+        <%= radio_button_tag "order[payments_attributes][][payment_method_id]", method.id, method == @order.available_payment_methods.first %>
+        <%= t(method.name, :scope => :payment_methods, :default => method.name) %>
+        <%= raw(method.description) if method.description %>
+      </label>
+    </p>
+    <% end %>
+
+    <ul id="payment-methods" data-hook>
+      <% @order.available_payment_methods.each do |method| %>
+        <li id="payment_method_<%= method.id %>" class="<%= 'last' if method == @order.available_payment_methods.last %>" data-hook>
+          <fieldset>
+            <%= render :partial => "spree/checkout/payment/#{method.method_type}", :locals => { :payment_method => method } %>
+          </fieldset>
+        </li>
+      <% end %>
+    </ul>
+    <br style="clear:both;" />
+    <div data-hook="coupon_code_field" data-hook></div>
+  </div>
+</fieldset>
+
+<div id="term_of_use" class="links columns sixteen alpha omega">
+  <% content_for :head do %>
+      <script>
+          var message_term_of_use = '<%= t(:message_term_of_use) %>';
+      </script>
+  <% end %>
+  <%= check_box_tag 'term_of_use_check', '', false, :class => 'required' %>
+  <%= raw t(:term_of_use) %>
+</div>
+<br>
+<div class="form-buttons" data-hook="buttons">
+  <%= submit_tag t(:save_and_continue), :class => 'btn btn-success', :id => 'checkout-link-payment' %>
+  <script>disableSaveOnClick();</script>
+</div>

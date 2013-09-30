@@ -1,0 +1,2 @@
+set_attributes 'table.order-summary'
+attributes :class => 'order-summary table table-striped'
