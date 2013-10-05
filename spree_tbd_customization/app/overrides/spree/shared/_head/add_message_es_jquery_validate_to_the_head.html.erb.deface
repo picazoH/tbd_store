@@ -1,6 +1,7 @@
 
 <!--
     insert_after 'code:contains("javascript_include_tag")'
+    disabled
 -->
 <% if I18n.locale.to_s.include? "es" %>
 <script src="/messages_es.js" type="text/javascript"></script>

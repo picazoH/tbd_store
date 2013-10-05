@@ -30,3 +30,9 @@
     <% end %>
   </div>
 </div>
+
+<% if I18n.locale != :en %>
+    <% content_for :head do %>
+        <script src='/assets/jquery.validate/localization/messages_<%= I18n.locale %>.js'></script>
+    <% end %>
+<% end %>
