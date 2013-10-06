@@ -69,7 +69,7 @@ gem 'spree_static_content', :git => 'https://github.com/spree/spree_static_conte
 gem 'spree_related_products', :git => 'https://github.com/spree/spree_related_products.git', :branch => '1-3-stable'
 
 #SpreeSocialProducts
-gem 'spree_social_products', :git => 'https://github.com/spree/spree_social_products.git', :branch => 'master'
+gem 'spree_social_products', :git => 'https://github.com/spree/spree_social_products.git', :branch => '1-3-stable'
 
 #gem "spree_gateway"
 gem 'spree_paypal_express', :git => 'https://github.com/spree/spree_paypal_express.git', :branch => '1-3-stable'
