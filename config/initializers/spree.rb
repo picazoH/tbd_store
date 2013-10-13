@@ -31,13 +31,5 @@ Spree.config do |config|
   config.shipping_instructions = true
 end
 
-
-Spree::AppConfiguration.class_eval do
-  preference :mail_from_default, :string, :default => 'comercial@xxx.com'
-end
-
-# Spree::Config is an instance of Spree::AppConfiguration
-Spree::Config.mail_from_default = 'comercial@xxx.com'
-
 #ActiveMerchant::Billing::Base.integration_mode = :test
 Rails.application.config.i18n.default_locale = :es
