@@ -85,7 +85,8 @@ gem 'spree_reviews', :git => 'https://github.com/spree/spree_reviews.git', :bran
 #gem 'spree_multi_lingual', :git => 'https://github.com/picazoH/spree_multi_lingual.git', :branch => '1-3-stable'
 gem 'spree_multi_lingual', :git => 'https://github.com/jipiboily/spree_multi_lingual.git', :branch => '1-3-stable'
 
-gem 'globalize3', :git => 'https://github.com/svenfuchs/globalize3.git', :tag => 'v0.2.0'
+# old repo: gem 'globalize3', :git => 'https://github.com/globalize/globalize.git', :tag => 'v0.2.0'
+gem 'globalize3', :git => 'https://github.com/globalize/globalize.git', :tag => 'v0.2.0'
 
 #spree_product_zoom
 gem 'spree_product_zoom', :git => 'https://github.com/spree/spree_product_zoom.git', :branch => '1-3-stable'
