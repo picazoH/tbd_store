@@ -82,10 +82,8 @@ gem 'spree_volume_pricing', :git => 'https://github.com/spree/spree_volume_prici
 gem 'spree_reviews', :git => 'https://github.com/spree/spree_reviews.git', :branch => '1-3-stable'
 
 #SpreeMultiLingual
-#gem 'spree_multi_lingual', :git => 'https://github.com/picazoH/spree_multi_lingual.git', :branch => '1-3-stable'
 gem 'spree_multi_lingual', :git => 'https://github.com/jipiboily/spree_multi_lingual.git', :branch => '1-3-stable'
 
-# old repo: gem 'globalize3', :git => 'https://github.com/globalize/globalize.git', :tag => 'v0.2.0'
 gem 'globalize3', :git => 'https://github.com/globalize/globalize.git', :tag => 'v0.2.0'
 
 #spree_product_zoom
