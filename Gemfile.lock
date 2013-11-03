@@ -189,7 +189,7 @@ GIT
 
 GIT
   remote: https://github.com/spree/spree_social.git
-  revision: 97e0b2f770cbee522c59e2a674222d5fffba751c
+  revision: e0b45b4dc9a9c1137233e33cc1323f425c76cfff
   branch: 1-3-stable
   specs:
     spree_social (2.3.0)
@@ -414,7 +414,7 @@ GEM
     omniauth-oauth2 (1.1.1)
       oauth2 (~> 0.8.0)
       omniauth (~> 1.0)
-    omniauth-twitter (1.0.0)
+    omniauth-twitter (1.0.1)
       multi_json (~> 1.3)
       omniauth-oauth (~> 1.0)
     orm_adapter (0.4.0)
