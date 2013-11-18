@@ -15,6 +15,7 @@ Spree.config do |config|
   #admin_interface_logo, default_meta_description, default_meta_keywords, default_seo_title, logo, orders_per_page,site_name,site_url
   config.site_name = 'tienda 2beDigital demo'
   config.default_country_id = 188
+  config.max_quantity = 10000
   config.admin_interface_logo = 'admin/bg/spree_50.png'
   config.logo = '2bD-logo.png'
   config.allow_ssl_in_production = false
