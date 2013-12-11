@@ -6,6 +6,7 @@ es:
  filter_results: "Filtrar resultados"
  back_to_orders_list: "Volver al listado de pedidos"
  no_orders_found: "No se encontraron pedidos"
+ company: "Compañía (y NIF)"
  views:
     pagination:
       first: "&laquo; Primera"
@@ -32,3 +33,5 @@ es:
  devise:
     failure:
        already_authenticated: "Ya estás autenticado."
+ term_of_use: "Acepto las <a href='http://xxxxx.com/condiciones-generales'>condiciones de uso</a> y he leído el <a href='http://xxxxx.com/aviso-legal'>aviso legal</a>"
+ message_term_of_use: "Por favor acepte las condiciones antes de realizar la compra"

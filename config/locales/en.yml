@@ -19,3 +19,5 @@ en:
       order_summary_canceled: "Order Summary [CANCELED]"
       subtotal: "Subtotal:"
       total: "Order Total:"
+  term_of_use: "I agree to the <a href='http://xxxxx.com/general-conditions'>terms and conditions of use</a> and I have read the <a href='xxxxx.com/legal-notice'>legal notice</a>"
+  message_term_of_use: "You need to accept the conditions before checking out"
