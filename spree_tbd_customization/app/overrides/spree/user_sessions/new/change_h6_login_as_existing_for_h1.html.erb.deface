@@ -1,0 +1,2 @@
+<!-- replace 'h6' -->
+    <h1><%= t(:login_as_existing) %></h1>

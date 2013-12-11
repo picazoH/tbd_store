@@ -1,2 +1,0 @@
-<!-- replace 'h6' -->
-    <h1><%= t(:new_customer) %></h1>
