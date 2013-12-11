@@ -16,7 +16,7 @@ Spree.config do |config|
   config.site_name = 'tienda 2beDigital demo'
   config.default_country_id = 188
   config.max_quantity = 10000
-  config.admin_interface_logo = 'admin/admin_tobe_bg.jpg'
+  config.admin_interface_logo = 'admin/admin_tobe_bg.png'
   config.logo = '2bD-logo.png'
   config.allow_ssl_in_production = false
   #SpreeSocialProducts Spree::Config.facebook_app_id = '572946162728681' Rails console

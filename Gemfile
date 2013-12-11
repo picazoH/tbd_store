@@ -50,8 +50,8 @@ gem 'jquery-rails', '~> 2.2.0'#'~> 2.1.4'
 
 # 01 Aug 01, 2013, gem 'spree',  :git => 'https://github.com/spree/spree.git', :ref => '2392cb922c8a1b2e9c4dd68a64dc29d8ac6b422c' #:branch => '1-3-stable'
 
-#Oct 21, 2013
-gem 'spree',  :git => 'https://github.com/spree/spree.git', :ref => 'e258ac93640ffc03bd1d955e7d3f0464282ab9f0' #:branch => '1-3-stable'
+#9 Dec, 2013
+gem 'spree',  :git => 'https://github.com/spree/spree.git', :ref => '02ae571a3f1eefd4cecc4f7dedec759bdb4cf64c' #:branch => '1-3-stable'
 
 gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise', :branch => '1-3-stable'
 #gem 'spree_auth_devise', :git => 'https://github.com/picazoH/spree_auth_devise.git', :branch => '1-3-stable'
