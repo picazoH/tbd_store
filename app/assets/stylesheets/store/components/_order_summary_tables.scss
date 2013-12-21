@@ -18,9 +18,15 @@ div.account-my-orders table.order-summary{
     thead tr th{
       text-transform: uppercase;
     }
-    tbody tr td{
-      vertical-align: middle;
+    tbody tr{
+      td{
+        vertical-align: middle;
+      }
+      td[data-hook="order_item_qty"]{
+        text-align: center;
+      }
     }
+
     tfoot{
       tr td{
         text-align: right;
@@ -35,11 +41,14 @@ div.account-my-orders table.order-summary{
       }
 
     }
-    @media (max-width: 480px) {
-      thead tr th.price, thead tr th.qty,
-      tbody tr td[data-hook="order_item_price"],tbody tr td[data-hook="order_item_qty"] {
-        display: none;
-      }
+    @media (max-width: 767px) {
+        thead tr th.price, thead tr th.qty,
+        tbody tr td[data-hook="order_item_price"],tbody tr td[data-hook="order_item_qty"] {
+          display: none;
+        }
+        tbody tr td.cart_item_image, tbody tr td.cart_item_image img{
+          width: 150px;
+        }
     }
   }
 }
