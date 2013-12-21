@@ -46,7 +46,7 @@
               <tbody>
               <tr>
                 <td>
-                  <a href="http://www.xxxx.com"
+                  <a href="http://xxx.com.com"
                      style="display: block;border: none;">
                     <img alt="<%= t('order_mailer.cancel_email.dear_customer') %>" style="display: block; width: 600px;border: none;"
                          src="<%= 'http://'+Spree::Config[:site_url] + image_path('orden-cancelada_'+I18n.locale.to_s+'.jpg') %>" width="600">
@@ -59,7 +59,7 @@
             <table style="margin: 0; border-collapse: collapse;" border="0" cellpadding="0" cellspacing="0" width="100%">
               <tbody>
               <tr>
-                <td style="color: #444444; font-family: arial; font-size: 12px; border-color: #dddddd; background-color: #ffffff;  padding: 5px 0;" align="left">
+                <td style="color: #444444; font-family: arial; font-size: 12px; border-color: #dddddd; background-color: #ffffff;" align="left">
                   <table style="margin: 0 0 0 10px;border-collapse:collapse;color: #444444; font-family: arial; font-size: 12px; border-color: #dddddd; background-color: #ffffff; ">
                     <tbody>
                     <tr>
@@ -122,17 +122,20 @@
                                               <td>
                                                 <strong><%= t :follow_us_on%></strong>
                                                 <br><br>
-                                                <a href="https://www.facebook.com/xxxxsl" target="Fb-xxxx" title="Facebook" style="text-decoration: none;">
-                                                  <%= image_tag 'http://'+Spree::Config[:site_url] + image_path('icon-fb.png'), :alt => "xxxx Fb", :id => "fb-logo"%>
+                                                <a href="http://www.xxx.com/blog" target="blog" title="blog" style="text-decoration: none;">
+                                                  <%= image_tag 'http://'+Spree::Config[:site_url] + image_path('icon-blog.png'), :alt => "blog_image", :id => "blog-logo" %>
                                                 </a>
-                                                <a href="https://plus.google.com/b/112478355983910627747/112478355983910627747/about" target="Gplus-xxxx" title="Google plus" style="text-decoration: none;">
-                                                  <%= image_tag 'http://'+Spree::Config[:site_url] + image_path('icon-google.png'), :alt => "xxxx G+", :id => "gplus-logo" %>
+                                                <a href="https://www.facebook.com/xxx" target="Fb" title="Facebook" style="text-decoration: none;">
+                                                  <%= image_tag 'http://'+Spree::Config[:site_url] + image_path('icon-fb.png'), :alt => "Fb", :id => "fb-logo"%>
                                                 </a>
-                                                <a href="https://twitter.com/xxxx" target="Tw-xxxx" title="Twitter" style="text-decoration: none;">
-                                                  <%= image_tag 'http://'+Spree::Config[:site_url] + image_path('icon-tw.png'), :alt => "xxxx Tw", :id => "Tw-logo" %>
+                                                <a href="https://plus.google.com/xxxx/posts" target="Gplus" title="Google plus" style="text-decoration: none;">
+                                                  <%= image_tag 'http://'+Spree::Config[:site_url] + image_path('icon-google.png'), :alt => "G+", :id => "gplus-logo" %>
                                                 </a>
-                                                <a href="http://www.youtube.com/user/xxxxsl" target="Yt-xxxx" title="Youtube" style="text-decoration: none;">
-                                                  <%= image_tag 'http://'+Spree::Config[:site_url] + image_path('youtube.png'), :alt => "xxxx Youtube", :id => "Tw-logo" %>
+                                                <a href="https://twitter.com/xxxx" target="Tw" title="Twitter" style="text-decoration: none;">
+                                                  <%= image_tag 'http://'+Spree::Config[:site_url] + image_path('icon-tw.png'), :alt => "Tw", :id => "Tw-logo" %>
+                                                </a>
+                                                <a href="http://www.youtube.com/user/xxx" target="Ut" title="Youtube" style="text-decoration: none;">
+                                                  <%= image_tag 'http://'+Spree::Config[:site_url] + image_path('youtube.png'), :alt => "Youtube", :id => "Youtube-logo" %>
                                                 </a>
                                                 <br>
                                               </td>
@@ -155,15 +158,13 @@
                     </tr>
                     </tbody>
                   </table>
-                  <table style="margin: 0 0 0 10px;border-collapse:collapse;color: #444444; font-family: arial; font-size: 12px; border-color: #dddddd; background-color: #ffffff; ">
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
                     <tbody>
                     <tr>
-                      <td style="vertical-align: top; padding: 5px 0; " width="580">
-                        <div style="padding: 6px; text-align: center;">
-                          <a href="http://www.xxxx.com/" style="border: none;">
-                            <img alt="<%= 'http://'+Spree::Config[:site_url] %>" style="display: block; margin: 0 auto;border: none;" src="<%= 'http://'+Spree::Config[:site_url] + image_path('footer_email.jpg') %>" height="35" width="580" >
-                          </a>
-                        </div>
+                      <td style="vertical-align: top;" width="600">
+                        <a href="<%= 'http://'+Spree::Config[:site_url] %>" style="border: none;">
+                          <img alt="<%= 'http://'+Spree::Config[:site_url] %>" style="display: block; margin: 0 auto;border: none;" src="<%= 'http://'+Spree::Config[:site_url] + image_path('footer_email.jpg') %>" width="600" >
+                        </a>
                       </td>
                     </tr>
                     </tbody>

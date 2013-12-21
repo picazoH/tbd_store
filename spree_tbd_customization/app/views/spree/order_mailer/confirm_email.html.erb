@@ -59,7 +59,7 @@
                         <table style="margin: 0; border-collapse: collapse;" border="0" cellpadding="0" cellspacing="0" width="100%">
                             <tbody>
                             <tr>
-                                <td style="color: #444444; font-family: arial; font-size: 12px; border-color: #dddddd; background-color: #ffffff;  padding: 5px 0;" align="left">
+                                <td style="color: #444444; font-family: arial; font-size: 12px; border-color: #dddddd; background-color: #ffffff;" align="left">
                                     <table style="margin: 0 0 0 10px;border-collapse:collapse;color: #444444; font-family: arial; font-size: 12px; border-color: #dddddd; background-color: #ffffff; ">
                                         <tbody>
                                         <tr>
@@ -69,7 +69,7 @@
                                                     <tr>
                                                         <td style="padding:5px 0 5px 5px;line-height:normal;color: #444444; font-family: arial; font-size: 12px; border-color: #dddddd; background-color: #ffffff; ">
                                                             <p style="margin: 0 0 10px;line-height: 1.3em;"><%= t('order_mailer.confirm_email.dear_customer') %>&nbsp;<%= @order.ship_address.firstname %><br>
-                                                                <strong><a href="<%= order_url(@order) %>" style="text-decoration: none; color: #00b2ec;"><%= t('order_mailer.confirm_email.instructions') %></a></strong><br><br>
+                                                                <strong><a href="<%= order_url(@order) %>" style="text-decoration: none; color: #00795A;"><%= t('order_mailer.confirm_email.instructions') %></a></strong><br><br>
                                                                 ================================================================================<br>
                                                                 <strong><%= t('order_mailer.confirm_email.order_summary') %></strong><br>
                                                                 ================================================================================<br>
@@ -122,17 +122,20 @@
                                                                                           <td>
                                                                                             <strong><%= t :follow_us_on%></strong>
                                                                                             <br><br>
-                                                                                            <a href="https://www.facebook.com/acisalsl" target="Fb-acisal" title="Facebook" style="text-decoration: none;">
-                                                                                              <%= image_tag 'http://'+Spree::Config[:site_url] + image_path('icon-fb.png'), :alt => "acisal Fb", :id => "fb-logo"%>
+                                                                                            <a href="http://www.xxx.com/blog" target="blog" title="blog" style="text-decoration: none;">
+                                                                                              <%= image_tag 'http://'+Spree::Config[:site_url] + image_path('icon-blog.png'), :alt => "blog_image", :id => "blog-logo" %>
                                                                                             </a>
-                                                                                            <a href="https://plus.google.com/b/112478355983910627747/112478355983910627747/about" target="Gplus-acisal" title="Google plus" style="text-decoration: none;">
-                                                                                              <%= image_tag 'http://'+Spree::Config[:site_url] + image_path('icon-google.png'), :alt => "acisal G+", :id => "gplus-logo" %>
+                                                                                            <a href="https://www.facebook.com/xxxx" target="Fb" title="Facebook" style="text-decoration: none;">
+                                                                                              <%= image_tag 'http://'+Spree::Config[:site_url] + image_path('icon-fb.png'), :alt => "Fb", :id => "fb-logo"%>
                                                                                             </a>
-                                                                                            <a href="https://twitter.com/acisal" target="Tw-acisal" title="Twitter" style="text-decoration: none;">
-                                                                                              <%= image_tag 'http://'+Spree::Config[:site_url] + image_path('icon-tw.png'), :alt => "acisal Tw", :id => "Tw-logo" %>
+                                                                                            <a href="https://plus.google.com/xxx/posts" target="Gplus" title="Google plus" style="text-decoration: none;">
+                                                                                              <%= image_tag 'http://'+Spree::Config[:site_url] + image_path('icon-google.png'), :alt => "G+", :id => "gplus-logo" %>
                                                                                             </a>
-                                                                                            <a href="http://www.youtube.com/user/acisalsl" target="Yt-acisal" title="Youtube" style="text-decoration: none;">
-                                                                                              <%= image_tag 'http://'+Spree::Config[:site_url] + image_path('youtube.png'), :alt => "acisal Youtube", :id => "Tw-logo" %>
+                                                                                            <a href="https://twitter.com/xxx" target="Tw" title="Twitter" style="text-decoration: none;">
+                                                                                              <%= image_tag 'http://'+Spree::Config[:site_url] + image_path('icon-tw.png'), :alt => "Tw", :id => "Tw-logo" %>
+                                                                                            </a>
+                                                                                            <a href="http://www.youtube.com/user/xxx" target="Ut" title="Youtube" style="text-decoration: none;">
+                                                                                              <%= image_tag 'http://'+Spree::Config[:site_url] + image_path('youtube.png'), :alt => "Youtube", :id => "Youtube-logo" %>
                                                                                             </a>
                                                                                             <br>
                                                                                           </td>
@@ -155,15 +158,13 @@
                                         </tr>
                                         </tbody>
                                     </table>
-                                    <table style="margin: 0 0 0 10px;border-collapse:collapse;color: #444444; font-family: arial; font-size: 12px; border-color: #dddddd; background-color: #ffffff; ">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                         <tbody>
                                         <tr>
-                                          <td style="vertical-align: top; padding: 5px 0; " width="580">
-                                            <div style="padding: 6px; text-align: center;">
-                                              <a href="http://www.acisal.com/" style="border: none;">
-                                                <img alt="<%= 'http://'+Spree::Config[:site_url] %>" style="display: block; margin: 0 auto;border: none;" src="<%= 'http://'+Spree::Config[:site_url] + image_path('footer_email.jpg') %>" height="35" width="580" >
+                                          <td style="vertical-align: top;" width="600">
+                                              <a href="<%= 'http://'+Spree::Config[:site_url] %>" style="border: none;">
+                                                <img alt="<%= 'http://'+Spree::Config[:site_url] %>" style="display: block; margin: 0 auto;border: none;" src="<%= 'http://'+Spree::Config[:site_url] + image_path('footer_email.jpg') %>" width="600" >
                                               </a>
-                                            </div>
                                           </td>
                                         </tr>
                                         </tbody>
