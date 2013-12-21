@@ -13,6 +13,7 @@ Spree.config do |config|
   # config.site_name = "Spree Demo Site"
   #Check AppConfiguration inside models spree in spree_core
   #admin_interface_logo, default_meta_description, default_meta_keywords, default_seo_title, logo, orders_per_page,site_name,site_url
+  config.site_url = "store.2bedigital.com"
   config.site_name = 'tienda 2beDigital demo'
   config.default_country_id = 188
   config.max_quantity = 10000
