@@ -1,0 +1,31 @@
+/*
+ = require store/spree_reviews
+ = require store/spree_product_zoom
+ */
+
+@import 'font-awesome';
+
+// CSS3
+@import 'compass';
+@import "compass/css3";
+
+// Fonts import from remote
+@import url(//fonts.googleapis.com/css?family=Inika|Roboto:400,500,700);
+
+// Import all the variables into the main css file.
+@import './_variables'; // Must call explicit path or else extension integration tests cannot import file.;
+
+// I gather this file is a starting point for the project.
+@import "bootstrap";
+
+// Include responsive Bootstrap styles
+@import "bootstrap-responsive";
+
+// Boostrap Overwrites
+//@import "bootstrap-overwrites";
+
+@import 'components/checkout_funnel';
+@import 'components/order_summary_tables';
+@import 'components/flash_and_alerts';
+@import 'components/spree_contact_us';
+

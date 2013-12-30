@@ -14,7 +14,7 @@ div[data-hook="checkout_progress"]{
     list-style-type: decimal;
     li{
       min-width: 110px;
-      color: $graySemiDark;
+      color: gray;
       margin-right: 7px;
       padding: 5px;
       @include border-radius(8px);
