@@ -8,7 +8,6 @@
  *= require store/spree_promo
 
  *= require_self
- *= require_tree .
  *= require store/spree_reviews
  *= require store/spree_social_products
  *= require store/spree_product_zoom
@@ -17,4 +16,5 @@
  *= require store/spree_multi_lingual
  *= require bootstrap
  *= require store/spree_minicart
+ *= require store/styles.scss
 */

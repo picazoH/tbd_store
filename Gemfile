@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.14'
+gem 'rails', '3.2.16'
 
 gem 'mysql2'
 
@@ -35,12 +35,12 @@ group :development do
 end
 
 group :production do
-  gem 'unicorn'
+  gem "unicorn", "~> 4.7.0"
   gem 'foreman'
-  gem 'therubyracer' #only required for 0.70.x or later
+  #gem 'therubyracer' no need it we have nodejs, only required for 0.70.x or later
 end
 
-gem 'jquery-rails', '~> 2.2.0'#'~> 2.1.4'
+gem 'jquery-rails', '~> 2.2.0'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -48,20 +48,18 @@ gem 'jquery-rails', '~> 2.2.0'#'~> 2.1.4'
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
 
-# 01 Aug 01, 2013, gem 'spree',  :git => 'https://github.com/spree/spree.git', :ref => '2392cb922c8a1b2e9c4dd68a64dc29d8ac6b422c' #:branch => '1-3-stable'
 
-#9 Dec, 2013
-gem 'spree',  :git => 'https://github.com/spree/spree.git', :ref => '02ae571a3f1eefd4cecc4f7dedec759bdb4cf64c' #:branch => '1-3-stable'
+#16 Dec, 2013
+gem 'spree',  :git => 'https://github.com/spree/spree.git', :ref => 'caf575e71d2f57e1c819b447f8cc98578bd7e40a' #:branch => '1-3-stable'
 
 gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise', :branch => '1-3-stable'
-#gem 'spree_auth_devise', :git => 'https://github.com/picazoH/spree_auth_devise.git', :branch => '1-3-stable'
 
 #i18n
 gem 'rails-i18n', :git => 'https://github.com/svenfuchs/rails-i18n.git', :branch => 'rails-3-x'
 gem 'spree_i18n', :git => 'https://github.com/spree/spree_i18n.git', :branch => '1-3-stable'
 
 ##Spree Static Content
-gem 'spree_static_content', :git => 'https://github.com/spree/spree_static_content.git', :branch => '1-3-stable'
+  gem 'spree_static_content', :git => 'https://github.com/spree/spree_static_content.git', :branch => '1-3-stable'
 
 #Related Products This extension provides a generic way for you to define different types of relationships
 #between your products, by defining a RelationType for each type of relationship you'd like to maintain.
