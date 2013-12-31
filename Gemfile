@@ -19,7 +19,7 @@ group :assets do
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer', :platforms => :ruby
   #gem 'less-rails'  #Sprockets
-  gem 'turbo-sprockets-rails3', :tag => 'v0.3.6'
+  gem 'turbo-sprockets-rails3', :tag => 'v0.3.11'
   gem 'uglifier', '>= 1.0.3'
 
 end
@@ -31,7 +31,8 @@ group :development do
 
   #Enable admin store://require admin/spree_clean
   #gem 'spree_clean', :git => "https://github.com/spree/spree_clean.git", :tag => 'v1.0.6'
-  gem 'capistrano'
+  gem "capistrano", "~> 2.15.4"
+  gem "rvm-capistrano", "~> 1.5.1"
 end
 
 group :production do
