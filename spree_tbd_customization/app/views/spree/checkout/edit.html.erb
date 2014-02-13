@@ -33,6 +33,6 @@
 
 <% if I18n.locale != :en %>
     <% content_for :head do %>
-        <%= javascript_include_tag "messages_"+I18n.locale.to_s %>
+        <script src="<%='/messages_'+I18n.locale.to_s+'.js' %>" type="text/javascript"></script>
     <% end %>
 <% end %>
